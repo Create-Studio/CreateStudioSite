@@ -1,0 +1,102 @@
+/*Ориентация экрана*/
+@media(orientation: landscape) {}
+
+@media(orientation: portrait) {}
+
+/*Разрешения экрана*/
+/* Здесь будут все стили для устройств с viewport больше 1400 пикселей. */
+@media (max-width: 1400px) {
+    .block_1 {
+        width: 600px;
+        height: 950px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px
+    }
+    
+    .block_2 {
+        width: 600px;
+        height: 950px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px;
+    
+    }
+    
+    .block_3 {
+        width: 600px;
+        height: 950px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px
+    }
+    /*
+    Стили для устройств, у которых ширина viewport меньше или равно 1400 пикселей,
+    но больше 990 пикселей.
+    Эти стили будут использованы для планшетов и ноутбуков с низким разрешением
+    */
+}
+
+@media (max-width: 990px) {
+    .block_1 {
+        width: 600px;
+        height: 950px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px
+    }
+    
+    .block_2 {
+        width: 600px;
+        height: 950px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px;
+    
+    }
+    
+    .block_3 {
+        width: 600px;
+        height: 950px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px
+    }
+
+    /*
+    Стили для устройств, у которых ширина viewport меньше или равно 990 пикселей,
+    но больше 770 пикселей.
+    Эти стили подойдут для некоторых мобильных устройств и планшетов
+    */
+}
+
+@media (max-width: 630px) {
+    .block_1 {
+        width: 550px;
+        height: 900px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px
+    }
+    
+    .block_2 {
+        width: 550px;
+        height: 900px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px;
+    
+    }
+    
+    .block_3 {
+        width: 550px;
+        height: 900px;
+        border: 2px solid white;
+        background: #292929;
+        margin: 50px
+    }
+    /*
+    Стили для устройств, у которых ширина viewport меньше или равно 770 пикселей.
+    Это множество мобильных устройств
+    */
+}
